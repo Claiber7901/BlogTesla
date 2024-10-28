@@ -71,3 +71,21 @@ footer {
 footer p {
     font-size: 0.9em;
 }
+
+header label {
+    margin: 0 15px;
+}
+
+header label a {
+    text-decoration: none;
+    color: #fff; /* Color del texto */
+    font-weight: bold; /* Negrita */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+header label a:hover {
+    background-color: #555; /* Color de fondo al pasar el mouse */
+    color: #fff; /* Color del texto al pasar el mouse */
+}
